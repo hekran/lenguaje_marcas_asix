@@ -1,8 +1,29 @@
 # ACTIVIDAD 1
-Al crear el archivo con extensión txt se ve el código tal cual se escribe, al cambiar la extensión a .html ya se ve formateado h1 como titulo principal (mayor tamaño, y h3 como un titulo secundario menor que h1 (y h2)
+Al crear el archivo con extensión txt se ve el código tal cual se escribe.
+```
+<h1>Texto grande</h1>
+<h3>Texto Pequeño</h3>
+```
+Al cambiar la extensión a .html ya se ve formateado h1 como titulo principal.
+<h1>texto grande</h1>
+Y h3 como titulo secundario
+<h3>Texto Pequeño</h3>
 
-```
-<h1>Prueba</h1>
-```
-## Prueba
 # ACTIVIDAD 2
+```
+<asir>
+  <modulo><titulo>Lenguaje de Marcas</titulo>
+    <contenido>
+      <unidad>Introducción</unidad>
+      <unidad>HTML</unidad>
+      <unidad>CSS</unidad>
+    </contenido>
+  </modulo>
+  <modulo><titulo>Lenguaje de Marcas</titulo>
+    <contenido>
+      <unidad>Introducción</unidad>
+      <unidad>HTML</unidad>
+      <unidad>CSS</unidad>
+    </contenido>
+</asir>
+```
