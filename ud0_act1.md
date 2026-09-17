@@ -19,11 +19,26 @@ Y h3 como titulo secundario
       <unidad>CSS</unidad>
     </contenido>
   </modulo>
-  <modulo><titulo>Lenguaje de Marcas</titulo>
+  <modulo><titulo>Fundamentos de Hardware</titulo>
     <contenido>
       <unidad>Introducción</unidad>
-      <unidad>HTML</unidad>
-      <unidad>CSS</unidad>
+      <unidad>Unidad 1</unidad>
+      <unidad>Unidad 2</unidad>
     </contenido>
+  </modulo>
+  <modulo><titulo>Implantación de Sistemas Operativos</titulo>
+    <contenido>
+      <unidad>Introducción</unidad>
+      <unidad>Unidad 1</unidad>
+      <unidad>Unidad 2</unidad>
+    </contenido>
+  </modulo>
+  <modulo><titulo>Planificación y Administración de Redes</titulo>
+    <contenido>
+      <unidad>Introducción</unidad>
+      <unidad>Unidad 1</unidad>
+      <unidad>Unidad 2</unidad>
+    </contenido>
+  </modulo>
 </asir>
 ```
