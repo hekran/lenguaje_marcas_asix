@@ -59,7 +59,7 @@ Y h3 como titulo secundario
 			<pais>Venezuela</pais>
 			<pais>Argentina</pais>
 			<pais>Ecuador</pais>
-			<pais>Mexico</pais>
+			<pais>México</pais>
 			<pais>Canadá</pais>
 		</paises>
 	</continente>
@@ -68,7 +68,7 @@ Y h3 como titulo secundario
 			<pais>China</pais>
 			<pais>Japón</pais>
 			<pais>Corea del Sur</pais>
-			<pais>Taiwan</pais>
+			<pais>Taiwán</pais>
 			<pais>Indonesia</pais>
 		</paises>
 	</continente>
@@ -84,5 +84,6 @@ Y h3 como titulo secundario
 </mundo>
 ```
 > ### *Vocabulario:*
-> mundo, continente, nombre, paises, pais
-#### Reglas:
+> mundo, continente, nombre, países, país
+> ### *Reglas:*
+> *mundo* contiene varios *continente*, un *continente* tiene un *nombre* y *paises*, *paises* tiene varios *pais*. Todos los *pais* entan en *paises*, *pais* es texto simple, detras de un *pais* solo puede ir otro *pais* o el fin de *paises*. Detras de *paises* solo puede ir otro *continente* o fin de *mundo*
