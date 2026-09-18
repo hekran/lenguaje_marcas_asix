@@ -1,5 +1,5 @@
 # ACTIVIDAD 1
-Al crear el archivo con extensión txt se ve el código tal cual se escribe.
+Al crear el archivo con extensión txt se ve el código tal cual se escribe en el navegador:
 ```
 <h1>Texto grande</h1>
 <h3>Texto Pequeño</h3>
@@ -85,5 +85,42 @@ Y h3 como titulo secundario
 ```
 > ### *Vocabulario:*
 > mundo, continente, nombre, países, país
+> ### *Reglas:*
+> *mundo* contiene varios *continente*, un *continente* tiene un *nombre* y *paises*, *paises* tiene varios *pais*. Todos los *pais* entan en *paises*, *pais* es texto simple, detras de un *pais* solo puede ir otro *pais* o el fin de *paises*. Detras de *paises* solo puede ir otro *continente* o fin de *mundo*
+# ACTIVIDAD 4
+```
+<biblioteca>
+	<libros>
+		<libro>
+			<titulo>FALCO</titulo>
+			<isbn>9788420419688</isbn>
+			<autor>ARTURO PEREZ REVERTE</autor>
+			<paginas>296</paginas>
+			<editorial>ALFAGUARA</editorial>
+			<idioma>CASTELLÀ</idioma>
+			<formato>En papel</formato>
+		</libro>
+		<libro>
+			<titulo>TODO ALATRISTE</titulo>
+			<isbn>9788420425528</isbn>
+			<autor>ARTURO PEREZ REVERTE</autor>
+			<editorial>ALFAGUARA</editorial>
+			<idioma>CASTELLÀ</idioma>
+			<formato>EBOOK</formato>
+		</libro>
+		<libro>
+			<titulo>HOMBRES BUENOS</titulo>
+			<isbn>9788466329804</isbn>
+			<autor>ARTURO PEREZ REVERTE</autor>
+			<editorial>PUNTO DE LECTURA</editorial>
+			<anio>2024</anio>
+			<formato>En papel</formato>
+			<sinopsis>La heróica aventura de quienes se atrevieron a cambiar el mundo con libros. En tiempos de oscuridad siempre hubo hombres buenos que lucharon para llevar las luces y el progreso. Y otros que procuraron impedirlo.</sinopsis>
+		</libro>
+	</libros>
+</biblioteca>
+```
+> ### *Vocabulario:*
+> biblioteca, libros, libro, titulo, isbn, autor, editorial, anio, formato, sinopsis, paginas, idioma.
 > ### *Reglas:*
 > *mundo* contiene varios *continente*, un *continente* tiene un *nombre* y *paises*, *paises* tiene varios *pais*. Todos los *pais* entan en *paises*, *pais* es texto simple, detras de un *pais* solo puede ir otro *pais* o el fin de *paises*. Detras de *paises* solo puede ir otro *continente* o fin de *mundo*
