@@ -42,3 +42,47 @@ Y h3 como titulo secundario
   </modulo>
 </asir>
 ```
+# ACTIVIDAD 3
+```
+<mundo>
+	<continente><nombre>Europa</nombre>
+		<paises>
+			<pais>España</pais>
+			<pais>Portugal</pais>
+			<pais>Francia</pais>
+			<pais>Alemania</pais>
+			<pais>Italia</pais>
+		</paises>
+	</continente>
+	<continente><nombre>América</nombre>
+		<paises>
+			<pais>Venezuela</pais>
+			<pais>Argentina</pais>
+			<pais>Ecuador</pais>
+			<pais>Mexico</pais>
+			<pais>Canadá</pais>
+		</paises>
+	</continente>
+	<continente><nombre>Asia</nombre>
+		<paises>
+			<pais>China</pais>
+			<pais>Japón</pais>
+			<pais>Corea del Sur</pais>
+			<pais>Taiwan</pais>
+			<pais>Indonesia</pais>
+		</paises>
+	</continente>
+	<continente><nombre>África</nombre>
+		<paises>
+			<pais>Marruecos</pais>
+			<pais>Egipto</pais>
+			<pais>Sudáfrica</pais>
+			<pais>Congo</pais>
+			<pais>Madagascar</pais>
+		</paises>
+	</continente>
+</mundo>
+```
+> ### *Vocabulario:*
+> mundo, continente, nombre, paises, pais
+#### Reglas:
