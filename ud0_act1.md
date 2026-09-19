@@ -121,6 +121,6 @@ Y h3 como titulo secundario
 </biblioteca>
 ```
 > ### *Vocabulario:*
-> biblioteca, libros, libro, titulo, isbn, autor, editorial, anio, formato, sinopsis, paginas, idioma.
+> biblioteca, libros, libro, titulo, isbn, autor, paginas, editorial, idioma, formato, anio, sinopsis.
 > ### *Reglas:*
-> *mundo* contiene varios *continente*, un *continente* tiene un *nombre* y *paises*, *paises* tiene varios *pais*. Todos los *pais* entan en *paises*, *pais* es texto simple, detras de un *pais* solo puede ir otro *pais* o el fin de *paises*. Detras de *paises* solo puede ir otro *continente* o fin de *mundo*
+> *biblioteca* contiene *libros*, un *libros* contiene varios *libro*, un *libro* puede tener *titulo, isbn, autor, paginas, editorial, idioma, formato, anio (año), sinopsis*, todas estas estiquetas son texto simple, detrás de un *libro* solo puede ir otro *libro* o fin de *libros*, después de *libros* solo puede ir fin de *biblioteca*.
