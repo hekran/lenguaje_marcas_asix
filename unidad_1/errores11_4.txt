@@ -1,0 +1,10 @@
+**Estas lineas tienen el cuenta el html antes de corregirlo**
+Linea 1 - es html no html
+Linea 2 - falta letra "g" es "lang" y falta usar las comillas con el "es"
+Faltaría agregar la codificación en el head, en nuestro caso UTF8 en una etiqueta meta
+Linea 4 - falta cierre </title>
+Linea 7 - flata "/" en el cierre de h1 </h1>
+Linea 8 - cierre incorrecto de b hay que cerrarlo dentro de p no fuera <p><b></b></p>
+Linea 9 - falta cierre de </p>
+Linea 11 - falta cierre de </li>
+Linea 12 - falta cierre de </li>
