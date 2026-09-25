@@ -1,3 +1,4 @@
+<alumno>Héctor Santonja</alumno>
 # ACTIVIDAD 1
 Al crear el archivo con extensión txt se ve el código tal cual se escribe en el navegador:
 ```
