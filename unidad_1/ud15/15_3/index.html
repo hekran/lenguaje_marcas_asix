@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de precios</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                max-width: 700px;
+                text-align: center;
+                font-size: 1.2em;
+                font-family: sans-serif;
+            }
+            td,th {
+                border: 2px solid black;
+                padding: 4px;
+            }
+            .noborder-der {
+                border-right: none;
+            }
+            .noborder-izq {
+                border-left: none;
+            }
+            .titulo {
+                background-color: rgb(167, 167, 167);
+            }
+            .alterno {
+                background-color: beige;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tabla Cafetería</h1>
+        <table>        
+            <tr class="titulo">
+                <th colspan="3">Desayunos</th>
+            </tr>
+             <tr class="titulo">
+                <th>Producto</th>
+                <th>Tipo</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Café</td>
+                <td>Con Leche</td>
+                <td> 1,6€</td>
+            </tr>
+            <tr>
+                <td>Capuccino</td>
+                <td>3,5€</td>
+            </tr>
+            <tr class="alterno">
+                <td rowspan="2">Donut</td>
+                <td class="noborder-izq">Blanco</td>
+                <td>1,5€</td>
+            </tr>
+            <tr class="alterno">
+                <td>Chocolate</td>
+                <td>1,6€</td>
+            </tr>
+            <tr>
+                <td class="noborder-der">Croissant</td>
+                <td class="noborder-izq"></td>
+                <td>2€</td>
+            </tr>
+            <tr class="alterno">
+                <td class="noborder-der">Pizza</td>
+                <td class="noborder-izq"></td>
+                <td>2,5€</td>
+            </tr>
+        </table>
+    
+    </body>
+
+</html>
