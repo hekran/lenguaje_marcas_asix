@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS style en head</title>
+        <style>
+            h1 {
+                color: blue;
+                text-align:center;
+            }
+            p{
+                color: grey;
+                font-family: Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Esto es un CSS style en head</h1>
+        <p>
+            El uso de CSS interno mediante la etiqueta <code>&lt;style&gt;</code> dentro de la sección <code>&lt;head&gt;</code> permite definir todas las reglas de estilo de una página web en un único lugar centralizado. A diferencia del CSS inline, este enfoque evita la repetición de código al permitir que una sola regla se aplique a múltiples elementos del mismo documento a través de selectores de etiquetas, clases o identificadores. Resulta especialmente útil para páginas individuales, prototipos rápidos o correos electrónicos HTML que requieren un diseño personalizado sin necesidad de gestionar archivos externos.
+        </p>
+        <p>
+            Sin embargo, incluir los estilos en la cabecera presenta ciertas limitaciones en proyectos de gran escala. Dado que los estilos definidos en el <code>&lt;head&gt;</code> solo afectan al documento HTML en el que se encuentran, no es posible reutilizarlos en otras páginas de un sitio web, lo que obliga a duplicar código y complica el mantenimiento. Para proyectos web multipágina, la práctica recomendada sigue siendo vincular una hoja de estilo externa mediante la etiqueta <code>&lt;link&gt;</code>, reservando el bloque <code>&lt;style&gt;</code> para casos muy puntuales o estilos específicos de una sola página.
+        </p>
+    </body>
+</html>

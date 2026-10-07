@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS inline</title>
+    </head>
+    <body>
+        <h1 style="color: blue; text-align:center;">Esto es un CSS inline</h1>
+        <p style="color: grey; font-family: Arial;">
+            El <strong>CSS inline</strong> (o en línea) consiste en aplicar estilos directamente a un elemento HTML específico mediante el atributo <code>style</code>. A diferencia de las hojas de estilo externas o los bloques <code>&lt;style&gt;</code>, las reglas se escriben justo dentro de la etiqueta de apertura (por ejemplo, <code>&lt;p style="color: blue;"&gt;</code>), lo que les otorga el nivel más alto de prioridad en la cascada de CSS. Esta especificidad máxima permite sobreescribir prácticamente cualquier otro estilo previo sin necesidad de recurrir a reglas adicionales.
+        </p>
+        <p style="color: grey; font-family: Arial;">
+
+            A pesar de su practicidad para realizar pruebas rápidas, correcciones puntuales o aplicar dinámicamente estilos mediante JavaScript, su uso continuado no es aconsejable en proyectos grandes. Utilizar CSS inline rompe el principio de separación de responsabilidades entre el contenido (HTML) y la presentación (CSS), dificulta el mantenimiento del código al no permitir la reutilización de reglas y aumenta el tamaño de los archivos. Además, limita el uso de características avanzadas como pseudo-clases (<code>:hover</code>), pseudo-elementos o reglas <code>@media</code> para diseño adaptativo.
+        </p>
+    </body>
+</html>
