@@ -1,0 +1,24 @@
+
+* {
+    font-family: Arial, sans-serif;
+}
+.main {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+}
+h1 em {
+    color: orange;
+}
+li p {
+    background-color: lightgray;
+}
+.comentarios p {
+    border-left: 1px solid black;
+}
+p.especial {
+    color: red;
+}
+span.especial {
+    color: green;
+}
