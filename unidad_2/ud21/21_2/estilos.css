@@ -1,0 +1,23 @@
+
+h1 {
+    color: red;
+}
+h2 {
+    color: green;
+}
+p {
+    text-align: justify;
+}
+.main {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.main ul li {
+    color: blue;
+}
+* {
+    font-family: Arial, sans-serif;
+    color: pink;
+}
+/* Cambiar de lugar la regla universal al principio o al final en este caso no cambia el resultado incluso intentando cambiar un color global, al no tener peso (especificidad)*/
