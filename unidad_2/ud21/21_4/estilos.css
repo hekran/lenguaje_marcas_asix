@@ -13,6 +13,13 @@
 .corp {
     color: green;
 }
-a[tarjet]{
+a{
+    text-decoration: none;
+}
+a[target]{
     color: violet;
+}
+p[class]{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(33, 140, 234);
 }
