@@ -1,0 +1,17 @@
+body {
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: #b1afaf;
+}
+h1 {
+    text-align: center;
+}
+h1, h2 {
+    color: whitesmoke;
+    background-color: black;
+    font-family: sans-serif;
+}
+p {
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
