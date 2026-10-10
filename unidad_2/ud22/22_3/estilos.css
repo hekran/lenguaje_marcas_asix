@@ -1,9 +1,27 @@
-ul {
-    list-style-type: square;
+body {
+    margin-top: 10px;
 }
-ol {
-    list-style-type: upper-roman;
+nav ul {
+    display: flex;
 }
-li ul {
-    list-style-type: circle;
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    border: solid 1px black;
+    background-color: beige;
+    padding: 10px 20px ;
+    margin: 5px;
+    border-radius: 5px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+nav a:hover {
+    background-color: blanchedalmond;
+    color: red;
 }
