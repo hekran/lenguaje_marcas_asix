@@ -1,0 +1,8 @@
+li {
+    list-style-image: url(img/icono.svg);
+    list-style-position: outside;
+    list-style: square outside url(img/icono.svg);
+}
+/* Inside se alinea la viñeta con el texto al mismo nivel
+Outside la viñeta queda antes del texto
+Personalmente me gusta más en este contexto inside */
