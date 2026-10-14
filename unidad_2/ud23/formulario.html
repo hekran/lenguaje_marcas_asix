@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Formulario de alta de usuario</h1>
+    
+    <form action="#" method="post">
+        <table border="1">
+            <tr>
+                <td colspan="2">
+                    <label for="user">Identificador de nuevo usuario</label>
+                    <input type="text" id="user" name="usuario" readonly value="usu_012345">
+                </td>
+            
+            </tr>
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" title="Introduce tu nombre">
+                </td>
+                <td>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" title="Introduce tus apellidos">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Contraseña:</label>
+                    <input type="password" id="pass" name="contraseña" title="Introduce tu contraseña">
+                </td>
+                <td>
+                    <label for="cpass">Confirmar contraseña:</label>
+                    <input type="password" id="cpass" name="ccontraseña" title="Confirma contraseña">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" title="Introduce tu email" size="45">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>Sexo:</span>
+                </td>
+                <td>
+                    <input type="radio" id="sexoh" name="sexo" title="Elige tu sexo"><label for="sexoh">Hombre</label>
+                    <input type="radio" id="sexom" checked name="sexo" title="Elige tu sexo"><label for="sexom">Mujer</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>Aficiones:</span>
+                </td>
+                <td>
+                    <input type="checkbox" name="deportes" id="deportes"><label for="deporte">Deportes</label><br>
+                    <input type="checkbox" name="lectura" id="lectura" checked><label for="lectura">Lectura</label><br>
+                    <input type="checkbox" name="cine" id="cine"><label for="cine">Cine</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>Pais</span>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <span>Subir foto</span>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><span>Comentarios personales:</span></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" value="Resetear">
+                </td>
+                <td>
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+            
+            
+            
+        </table>
+    </form>
+</body>
+</html>
