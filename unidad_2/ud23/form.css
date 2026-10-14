@@ -1,0 +1,35 @@
+h2 {
+    padding-left: 15px;
+}
+form {
+    background-color: lightsalmon;
+    width 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+table {
+    margin: 0 auto;
+    border: 5px ridge white;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+    border: 5px ridge white;
+    
+}
+label {
+    font-weight: bold;
+}
+.fnormal {
+    font-weight: normal;
+}
+input[type="submit"],input[type="reset"] {
+    font-weight: bold;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 0.9em;
+    
+}

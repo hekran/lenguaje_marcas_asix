@@ -8,7 +8,7 @@
 <body>
     <form action="#" method="post" enctype="multipart/form-data">
         <h2>Formulario de alta de usuario</h2>
-        <table border="1">
+        <table>
             <tr>
                 <td colspan="2">
                     <label for="user">Identificador de nuevo usuario</label>
@@ -44,21 +44,21 @@
             </tr>
             <tr>
                 <td>
-                    <span>Sexo:</span>
+                    <label>Sexo:</label>
                 </td>
                 <td>
-                    <input type="radio" id="sexoh" name="sexo" title="Elige tu sexo"><label for="sexoh">Hombre</label>
-                    <input type="radio" id="sexom" checked name="sexo" title="Elige tu sexo"><label for="sexom">Mujer</label>
+                    <input type="radio" id="sexoh" name="sexo" title="Elige tu sexo"><label class="fnormal" for="sexoh">Hombre</label>
+                    <input type="radio" id="sexom" checked name="sexo" title="Elige tu sexo"><label class="fnormal" for="sexom">Mujer</label>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span>Aficiones:</span>
+                    <label>Aficiones:</label>
                 </td>
                 <td>
-                    <input type="checkbox" name="deportes" id="deportes"><label for="deporte">Deportes</label><br>
-                    <input type="checkbox" name="lectura" id="lectura" checked><label for="lectura">Lectura</label><br>
-                    <input type="checkbox" name="cine" id="cine"><label for="cine">Cine</label>
+                    <input type="checkbox" name="deportes" id="deportes"><label class="fnormal" for="deportes">Deportes</label><br>
+                    <input type="checkbox" name="lectura" id="lectura" checked><label class="fnormal" for="lectura">Lectura</label><br>
+                    <input type="checkbox" name="cine" id="cine"><label class="fnormal" for="cine">Cine</label>
                 </td>
             </tr>
             <tr>
