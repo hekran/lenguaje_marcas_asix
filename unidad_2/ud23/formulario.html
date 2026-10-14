@@ -6,15 +6,14 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <form action="#" method="post" enctype="multipart/form-data">
+    <form action="http://172.30.18.224:3000" method="post" enctype="multipart/form-data">
         <h2>Formulario de alta de usuario</h2>
-        <table border="1">
+        <table>
             <tr>
                 <td colspan="2">
                     <label for="user">Identificador de nuevo usuario</label>
                     <input type="text" id="user" name="usuario" readonly value="usu_012345">
                 </td>
-            
             </tr>
             <tr>
                 <td>
@@ -29,36 +28,36 @@
             <tr>
                 <td>
                     <label for="pass">Contraseña:</label>
-                    <input type="password" id="pass" name="contraseña" title="Introduce tu contraseña">
+                    <input type="password" id="pass" name="password" title="Introduce tu contraseña">
                 </td>
                 <td>
                     <label for="cpass">Confirmar contraseña:</label>
-                    <input type="password" id="cpass" name="ccontraseña" title="Confirma contraseña">
+                    <input type="password" id="cpass" name="password2" title="Confirma contraseña">
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
                     <label for="email">Email:</label>
-                    <input type="text" id="email" name="email" title="Introduce tu email" size="45">
+                    <input type="text" id="email" name="email" title="Introduce tu email" size="50">
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span>Sexo:</span>
+                    <label>Sexo:</label>
                 </td>
                 <td>
-                    <input type="radio" id="sexoh" name="sexo" title="Elige tu sexo"><label for="sexoh">Hombre</label>
-                    <input type="radio" id="sexom" checked name="sexo" title="Elige tu sexo"><label for="sexom">Mujer</label>
+                    <input type="radio" id="sexoh" name="sexo" title="Elige tu sexo" value="hombre"><label class="fnormal" for="sexoh">Hombre</label>
+                    <input type="radio" id="sexom" checked name="sexo" title="Elige tu sexo" value="mujer"><label class="fnormal" for="sexom">Mujer</label>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <span>Aficiones:</span>
+                    <label>Aficiones:</label>
                 </td>
                 <td>
-                    <input type="checkbox" name="deportes" id="deportes"><label for="deporte">Deportes</label><br>
-                    <input type="checkbox" name="lectura" id="lectura" checked><label for="lectura">Lectura</label><br>
-                    <input type="checkbox" name="cine" id="cine"><label for="cine">Cine</label>
+                    <input type="checkbox" name="aficiones" id="deportes" value="deportes"><label class="fnormal" for="deportes" title="está seleccionando Deportes">Deportes</label><br>
+                    <input type="checkbox" name="aficiones" id="lectura" checked value="Lectura"><label class="fnormal" for="lectura" title="está seleccionando Lectura">Lectura</label><br>
+                    <input type="checkbox" name="aficiones" id="cine" value="Cine"><label class="fnormal" for="cine" title="está seleccionando Lectura">Cine</label>
                 </td>
             </tr>
             <tr>
@@ -78,7 +77,7 @@
                     <label for="foto">Subir su foto</label>
                 </td>
                 <td>
-                    <input type="file" id="foto" name="imagen" accept="image/*">
+                    <input type="file" id="foto" name="foto" accept="image/*" title="Adjunte su imagen">
                 </td>
             </tr>
             <tr>
@@ -86,7 +85,7 @@
                     <label for="comen">Comentarios personales:</label>
                 </td>
                 <td>
-                    <textarea name="comentarios" id="comen" placeholder="Escriba aquí sus comentarios" cols="40" rows="5"></textarea>
+                    <textarea name="comentarios" id="comen" placeholder="Escriba aquí sus comentarios" cols="40" rows="5" title="Escriba sus observaciones"></textarea>
                 </td>
             </tr>
             <tr>
