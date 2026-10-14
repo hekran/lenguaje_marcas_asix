@@ -35,7 +35,7 @@ input[type="submit"],input[type="reset"] {
 }
 form {
     background-color: lightsalmon;
-    width 70%;
+    min-width: 500px;
     max-width: 800px;
     margin: 0 auto;
     border: 1px solid black;
