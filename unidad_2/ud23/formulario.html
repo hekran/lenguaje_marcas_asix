@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <h1>Formulario de alta de usuario</h1>
-    
-    <form action="#" method="post">
+    <form action="#" method="post" enctype="multipart/form-data">
+        <h2>Formulario de alta de usuario</h2>
         <table border="1">
             <tr>
                 <td colspan="2">
@@ -40,7 +39,7 @@
             <tr>
                 <td colspan="2">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" title="Introduce tu email" size="45">
+                    <input type="text" id="email" name="email" title="Introduce tu email" size="45">
                 </td>
             </tr>
             <tr>
@@ -76,13 +75,19 @@
             </tr>
             <tr>
                 <td>
-                    <span>Subir foto</span>
+                    <label for="foto">Subir su foto</label>
                 </td>
-                <td></td>
+                <td>
+                    <input type="file" id="foto" name="imagen" accept="image/*">
+                </td>
             </tr>
             <tr>
-                <td><span>Comentarios personales:</span></td>
-                <td></td>
+                <td>
+                    <label for="comen">Comentarios personales:</label>
+                </td>
+                <td>
+                    <textarea name="comentarios" id="comen" placeholder="Escriba aquí sus comentarios" cols="40" rows="5"></textarea>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -91,10 +96,7 @@
                 <td>
                     <input type="submit" value="Enviar">
                 </td>
-            </tr>
-            
-            
-            
+            </tr>   
         </table>
     </form>
 </body>
