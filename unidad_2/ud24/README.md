@@ -1,4 +1,4 @@
-## Inline-flex en .contenido o .inline-block en .tarjeta
+## Flex en .contenido o .inline-block en .tarjeta
 * Me quedo con flex en .contenido, razones:
     * No necesito modificar padding ni margin porque el contenido de .tarjeta se adapta automáticamente al ancho.
     * Todo los hijos de .contenido se ven afectados
