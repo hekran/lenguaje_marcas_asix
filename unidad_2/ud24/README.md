@@ -9,9 +9,9 @@
 1. **¿Qué diferencia hay entre margin y padding?**  
     Margin separa la caja de forma externa después del border, no ocupa espacio en el contenido aunque si dentro de donde este contenida la caja.
     Padding ocupa espació dentro del contenido y lo hace crecer.
-2. **¿Por qué saltaba la tercera tarjeta de línea?**
+2. **¿Por qué saltaba la tercera tarjeta de línea?**  
     Porque entre el contenido el margin, el border y el padding hacia que la caja ocupara más espacio, quitando 5 de padding se solucionó.
-3. **¿Qué propiedades ignoraba el `<span>` y por qué?**
+3. **¿Qué propiedades ignoraba el `<span>` y por qué?**  
     Ignora el width, height y el margin-top y margin-bottom porque es un elemento de linea.
-4. **¿Qué hace display: none con el espacio que ocupaba la caja?**
+4. **¿Qué hace display: none con el espacio que ocupaba la caja?**  
     Desaparece la caja y también el espacio que ocupaba
