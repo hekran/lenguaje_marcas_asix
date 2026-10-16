@@ -1,0 +1,35 @@
+.pagina {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+.cabecera {
+    background-color: aqua;
+    text-align: center;
+}
+.contenido {
+    background-color: lightsalmon;
+    display: flex;
+}
+.pie {
+    background-color: lightgreen;
+    text-align: center;
+    margin-top: 100px;
+}
+.tarjeta {
+    width: 220px;
+    padding: 15px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    /*display: inline-block; para dejarlo así bajé el padding a 10px*/
+}
+.etiqueta {
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    /*display: inline-block; Si se aplican al cambiar a inline-block*/
+    display: none;
+}
