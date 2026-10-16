@@ -1,10 +1,10 @@
 ## Inline-flex en .contenido o .inline-block en .tarjeta
 * Me quedo con flex en .contenido, razones:
-    * No necesito modificar padding ni margin porque el contenido se adapta solo al ancho.
+    * No necesito modificar padding ni margin porque el contenido de .tarjeta se adapta automáticamente al ancho.
     * Todo los hijos de .contenido se ven afectados
     * Si necesito que el tamaño del contenido no cambie siempre puedo usar un min-width
-    * Lo vamos a usar próximamente, asi lo voy practicando
-    * Flexbox me permitiría luego mucho juego para en el responsive para ordenar esos div.
+    * Lo vamos a usar próximamente, asi voy practicando
+    * Flexbox me permitiría luego mucho juego para, en el responsive, ordenar esos div.
 ## Respuestas Parte C
 1. **¿Qué diferencia hay entre margin y padding?**  
     Margin separa la caja de forma externa después del border, no ocupa espacio en el contenido aunque si dentro de donde este contenida la caja.
