@@ -7,7 +7,6 @@
     * [📄 Completando la cabecera ★★☆☆](./unidad_1/ud11/11_2.html)
     * [📄 Caracteres especiales y validación ★★★☆](./unidad_1/ud11/11_3.html)
     * [📄 Detective de errores ★★★★](./unidad_1/ud11/11_4.html)
-
     </details>
     <details><summary><a href="./unidad_1/ud12/">📁 ud12: HTML Formato de texto</a></summary>
 
