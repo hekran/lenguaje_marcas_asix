@@ -1,7 +1,7 @@
 # Índice de Ejercicios
 
 - [📁 HTML](./unidad_1/)
-    * <details><summary><a href="./unidad_1/ud11/">📁 ud11: HTML Básico</a></summary>
+    <details><summary><a href="./unidad_1/ud11/">📁 ud11: HTML Básico</a></summary>
 
     * [📄 Tu primera página HTML ★☆☆☆](./unidad_1/ud11/11_1.html)
     * [📄 Completando la cabecera ★★☆☆](./unidad_1/ud11/11_2.html)
