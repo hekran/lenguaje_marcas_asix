@@ -8,8 +8,8 @@
   * [📁 ud15: HTML Enlaces](./unidad_1/ud15/)
 
 * [📁 CSS](./unidad_2/)
-  * [📁 ud21: HTML Básico](./unidad_2/ud21/)
-  * [📁 ud22: HTML Listas](./unidad_2/ud22/)
-  * [📁 ud23: HTML Formulario](./unidad_2/ud23/)
-  * [📁 ud24: HTML Agrupaciones (divs)](./unidad_2/ud24/)
-  * [📁 ud25: HTML Enlaces](./unidad_2/ud25/)
+  * [📁 ud21: CSS Básico](./unidad_2/ud21/)
+  * [📁 ud22: CSS Listas](./unidad_2/ud22/)
+  * [📁 ud23: CSS Formulario](./unidad_2/ud23/)
+  * [📁 ud24: CSS Agrupaciones (divs)](./unidad_2/ud24/)
+  * [📁 ud25: CSS Enlaces](./unidad_2/ud25/)
