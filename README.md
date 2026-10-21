@@ -10,7 +10,11 @@
     * [📄 Detective de errores ★★★★](./unidad_1/ud11/11_4.html)
 
     </details>
-  * [📁 ud12: HTML Formato de texto](./unidad_1/ud12/)
+    <details>
+    <summary><a href="./unidad_1/ud12/">📁 ud12: HTML Formato de texto</a></summary>
+
+    </details>
+
   * [📁 ud13: HTML Imágenes](./unidad_1/ud13/)
   * [📁 ud14: HTML Enlaces](./unidad_1/ud14/)
   * [📁 ud15: HTML Enlaces](./unidad_1/ud15/)
