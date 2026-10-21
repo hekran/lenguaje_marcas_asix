@@ -2,7 +2,7 @@
 
 - [📁 HTML](./unidad_1/)
   * <details>
-    <summary>[📁 ud11: HTML Básico](./unidad_1/ud11/)</summary>
+    <summary><a href="./unidad_1/ud11/">📁 ud11: HTML Básico</a></summary>
 
     * [📄 Tu primera página HTML ★☆☆☆](./unidad_1/ud11/11_1.html)
     * [📄 Completando la cabecera ★★☆☆](./unidad_1/ud11/11_2.html)
