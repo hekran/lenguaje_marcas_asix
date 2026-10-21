@@ -14,7 +14,6 @@
     * [📄 Formato de texto enriquecido ★★☆☆](./unidad_1/ud12/12_2.html)
     * [📄 Ficha técnica con etiquetas semánticas ★★★☆](./unidad_1/ud12/12_3.html)
     * [📄 Reto: mini currículum con estilos inline ★★★★](./unidad_1/ud12/12_4.html)
-
     </details>
     <details><summary><a href="./unidad_1/ud13/">📁 ud13: HTML Imágenes</a></summary>
 
@@ -22,7 +21,6 @@
     * [📄 Galería de imágenes ★★☆☆](./unidad_1/ud13/13_2/index.html)
     * [📄 Texto envolvente alrededor de una imagen ★★★☆](./unidad_1/ud13/13_3/index.html)
     * [📄 Reto: tarjeta de producto ★★★★](./unidad_1/ud13/13_4/index.html)
-
     </details>
     <details><summary><a href="./unidad_1/ud14/">📁 ud14: HTML Enlaces</a></summary>
 
