@@ -3,4 +3,43 @@ html {
 }
 ul {
     display: flex;
+    list-style: none;
+    padding: 0px;
+}
+body {
+    width: 60%;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+}
+nav {
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+    background-color: lightgreen;
+    z-index: 1;
+}
+li {
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.subir {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: lightblue;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+section {
+    scroll-margin-top: 35px;
 }
