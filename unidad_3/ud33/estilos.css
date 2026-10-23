@@ -1,0 +1,39 @@
+p::first-letter {
+    font-size: 1.4em;
+    color: red;
+}
+p::first-line {
+    font-variant: small-caps;
+}
+*::selection {
+    color: violet;
+}
+li {
+    list-style: none;
+}
+li::before {
+    content: "✔ ";
+}
+a[target="_blank"]::after {
+    content: " ↗";
+}
+h2::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background-color: blue;
+    margin-left: 45px;
+    margin-top: 6px;
+}
+[data-ayuda]:hover::after {
+    content: attr(data-ayuda);
+    position: absolute;
+    top: 70%;
+    background-color: aqua;
+    border-radius: 10px;
+}
+h1 {
+    position: relative;
+    
+}

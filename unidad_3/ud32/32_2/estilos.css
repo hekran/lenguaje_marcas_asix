@@ -8,7 +8,9 @@ input:read-only {
     color: gray;
 }
 input:disabled {
-    color: lightgray;
+    color: darkslategray; 
+    /*Lo pongo de este color para diferenciarlo,
+    consideralo atenuado, ya que el color de :read-only le afecta)*/
 }
 input:checked + label {
     font-weight: bold;
