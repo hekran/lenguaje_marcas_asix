@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+* {
+    font-family: Nunito;
+}
+article {
+    display: inline-block;
+}
+header, nav, .copy, .redes {
+    background-color: #eee;
+}
+header {
+    text-align: center;
+    position: relative;
+    height: 140px;
+}
+header>img {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+}
+.html5 {
+    left: 20px;
+}
+.css3 {
+    right: 20px;
+}
+.mid_ban {
+    padding: 1px;
+}
+h1 {
+    font-size: 2.5em;
+    margin: 0px;
+    margin-top: 20px;
+    color: brown;
+}
+h2 {
+    margin: 0px;
+    color: green;
+    font-size: 1.8em;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: 3px 7px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: red;
+    font-weight: bold;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+}
+article {
+    position: relative;
+    width: 33.1%;
+    height: 50%;
+    margin-bottom: 4px;
+}
+article>img {
+    width: 50px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+p, h3{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+p {
+    padding-bottom: 50px;
+}
+article:nth-child(1) {
+    background-color: rgba(162, 179, 188, 0.5);
+}
+article:nth-child(2) {
+    background-color: rgba(241, 151, 79, 0.5);
+}
+article:nth-child(3) {
+    background-color: rgba(208, 61, 107, 0.5);
+}
+article:nth-child(4) {
+    background-color: rgba(195, 23, 65, 0.5);
+}
+article:nth-child(5) {
+    background-color: rgba(109, 104, 166, 0.5);
+}
+article:nth-child(6) {
+    background-color: rgba(156, 154, 203, 0.5);
+}
+.redes {
+    text-align: center;
+    margin-top: 10px;
+}
+.redes>img {
+    width: 40px;
+    text-align: center;
+    margin-top: 6px;
+}
+.copy {
+    text-align: center;
+    
+}
+.copy>p {
+    padding: 0;
+    margin-top: 10px;
+}
+img {
+    transition: transform 0.5s ease;
+}
+.redes>img:hover, article>img:hover {
+    transform: scale(1.2);
+}
+body {
+    margin: 0 auto;
+    max-width: 70%;
+    min-width: 1180px;
+}
