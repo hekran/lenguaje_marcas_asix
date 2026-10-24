@@ -102,17 +102,38 @@ h3 {
     height: 50%;
 }
 #galeria {
-    display: relative;
+    position: relative;
 }
 .foto {
     display: inline-block;
+    position: relative;
     width: 280px;
     height: 210px;
     border: solid 6px white;
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
     margin-right: 30px;
+    overflow: hidden;
+    
+}
+.foto.verde{
+    margin-left: 35px;
+    margin-right: 180px;
 }
 .foto.azul{
     position: absolute;
-    top: 30px;
+    top: 100px;
+    left: 300px;
+    z-index: 1;
+}
+.foto>h3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding: 8px;
+    color: white;
+    font-weight: normal;
+}
+.foto:hover {
+    z-index: 2;
 }
