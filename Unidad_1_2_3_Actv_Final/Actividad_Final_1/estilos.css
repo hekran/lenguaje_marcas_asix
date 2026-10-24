@@ -18,10 +18,11 @@ header>img {
     position: absolute;
     top: 20px;
 }
-.html5 {
+
+header>img:nth-child(1){
     left: 20px;
 }
-.css3 {
+header>img:nth-child(2){
     right: 20px;
 }
 .mid_ban {
