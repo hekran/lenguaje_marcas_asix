@@ -2,12 +2,8 @@
 
 - [📁 HTML](./unidad_1/)
     <details style="margin-bottom:0;"><summary><a href="./unidad_1/ud11/">📁 ud11: HTML Básico</a></summary>
-    
     <a href="./unidad_1/ud11/11_1.html>📄 Tu primera página HTML ★☆☆☆</a>
   
-    * [📄 Completando la cabecera ★★☆☆](./unidad_1/ud11/11_2.html)
-    * [📄 Caracteres especiales y validación ★★★☆](./unidad_1/ud11/11_3.html)
-    * [📄 Detective de errores ★★★★](./unidad_1/ud11/11_4.html)
     </details>
     <details><summary><a href="./unidad_1/ud12/">📁 ud12: HTML Formato de texto</a></summary>
     * [📄 Estructura con títulos y párrafos ★☆☆☆](./unidad_1/ud12/12_1.html)
@@ -33,3 +29,7 @@
   * [📁 ud24: CSS Agrupaciones (divs)](./unidad_2/ud24/)
   * [📁 ud25: CSS Posicionamiento](./unidad_2/ud25/)
   * [📁 ud25: CSS Elementos avanzados](./unidad_2/ud26/)
+  
+    * [📄 Completando la cabecera ★★☆☆](./unidad_1/ud11/11_2.html)
+    * [📄 Caracteres especiales y validación ★★★☆](./unidad_1/ud11/11_3.html)
+    * [📄 Detective de errores ★★★★](./unidad_1/ud11/11_4.html)
