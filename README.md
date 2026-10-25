@@ -29,12 +29,12 @@
     * [📄 Tabla de contenidos con anclas ★★★☆](./unidad_1/ud14/14_3/index.html)
     * [📄 Reto: mini sitio personal de 3 páginas ★★★★](./unidad_1/ud14/14_4/index.html)
     </details>
-    <details><summary><a href="./unidad_1/ud15/">📁 ud15: Tablas</a></summary>
+    <details><summary><a href="./unidad_1/ud15/">📁 ud15: Tablas 🚨</a></summary>
 
     * [📄 Horario semanal ★☆☆☆](./unidad_1/ud15/15_1/index.html)
     * [📄 Dando estilo a la tabla ★★☆☆](./unidad_1/ud15/15_2/index.html)
     * [📄 Lista de precios con celdas combinadas ★★★☆](./unidad_1/ud15/15_3/index.html)
-    * [📄 Reto: tabla de datos completa ★★★★](./unidad_1/ud15/15_4/index.html)
+    * [📄 Reto: tabla de datos completa ★★★★ 🚨](./unidad_1/ud15/15_4/index.html)
     </details>
 * [📁 CSS](./unidad_2/)
     <details><summary><a href="./unidad_2/ud21/">📁 ud21: CSS Básico</a></summary>
@@ -52,10 +52,10 @@
     * [📄 Reto: menú de navegación ★★★☆](./unidad_2/ud22/22_3/)
     </details>
 
-    * [📁 ud23: CSS Formulario](./unidad_2/ud23/)
+    * [📁 ud23: CSS Formulario 🚨](./unidad_2/ud23/)
     * [📁 ud24: CSS Agrupaciones (divs)](./unidad_2/ud24/)
     * [📁 ud25: CSS Posicionamiento](./unidad_2/ud25/)
     * [📁 ud25: CSS Elementos avanzados](./unidad_2/ud26/)
 * [📁 Finales](./Unidad_01_02_03_Actv_Final/)
-    * [📁 ud23: CSS Formulario](./Unidad_01_02_03_Actv_Final/Actividad_Final_1/)
-    * [📁 ud24: CSS Agrupaciones (divs)](./Unidad_01_02_03_Actv_Final/Actividad_Final_2/)
+    * [📁 Maquetado Básico ★★☆☆](./Unidad_01_02_03_Actv_Final/Actividad_Final_1/)
+    * [🚨 Web con posicionamiento ★★★★ 🚨](./Unidad_01_02_03_Actv_Final/Actividad_Final_2/)
