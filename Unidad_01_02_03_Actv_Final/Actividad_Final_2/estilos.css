@@ -27,7 +27,8 @@ h1 {
 }
 .tempo {
     position: absolute;
-    top: 0px;
+    margin: 0;
+    top: 16px;
     right: 16px;
     width: 84px;
     height: 55px;
