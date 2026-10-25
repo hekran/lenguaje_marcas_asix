@@ -167,6 +167,7 @@ footer p {
 }
 .comentarios {
     height: 170px;
+    margin-right: 30px;
     overflow: auto;
     background-color: #e9efe9;
     padding: 15px;
