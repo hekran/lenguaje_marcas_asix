@@ -45,7 +45,13 @@
     * [📄 Identificadores y atributos ★★★☆](./unidad_2/ud21/21_4/index.html)
     * [📄 Reto: colisiones y refactorización ★★★★](./unidad_2/ud21/21_5/index.html)
     </details>
-    * [📁 ud22: CSS Listas](./unidad_2/ud22/)
+    <details><summary><a href="./unidad_2/ud22/">📁 ud22: CSS Listas</a></summary>
+
+    * [📄 Listas ordenadas y desordenadas ★☆☆☆](./unidad_2/ud22/22_1/)
+    * [📄 Viñetas personalizadas ★★☆☆](./unidad_2/ud22/22_2/)
+    * [📄 Reto: menú de navegación ★★★☆](./unidad_2/ud22/22_3/)
+    </details>
+
     * [📁 ud23: CSS Formulario](./unidad_2/ud23/)
     * [📁 ud24: CSS Agrupaciones (divs)](./unidad_2/ud24/)
     * [📁 ud25: CSS Posicionamiento](./unidad_2/ud25/)
