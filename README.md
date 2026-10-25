@@ -39,11 +39,11 @@
 - [📁 CSS](./unidad_2/)
     <details><summary><a href="./unidad_2/ud21/">📁 ud21: CSS Básico</a></summary>
 
-    * [📄 Tres formas de incluir CSS ★☆☆☆](./unidad_2/ud21/21_1/index.html)
-    * [📄 Mis primeras reglas de estilo ★★☆☆](./unidad_2/ud21/21_2/index.html)
-    * [📄 Descendientes y clases ★★★☆](./unidad_2/ud21/21_3/index.html)
-    * [📄 Identificadores y atributos ★★★☆](./unidad_2/ud21/21_4/index.html)
-    * [📄 Reto: colisiones y refactorización ★★★★](./unidad_2/ud21/21_5/index.html)
+    * [📄 Tres formas de incluir CSS ★☆☆☆](./unidad_2/ud21/21_1/)
+    * [📄 Mis primeras reglas de estilo ★★☆☆](./unidad_2/ud21/21_2/)
+    * [📄 Descendientes y clases ★★★☆](./unidad_2/ud21/21_3/)
+    * [📄 Identificadores y atributos ★★★☆](./unidad_2/ud21/21_4/)
+    * [📄 Reto: colisiones y refactorización ★★★★](./unidad_2/ud21/21_5/)
     </details>
     <details><summary><a href="./unidad_2/ud22/">📁 ud22: CSS Listas</a></summary>
 
