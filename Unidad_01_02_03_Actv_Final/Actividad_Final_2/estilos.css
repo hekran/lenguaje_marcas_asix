@@ -1,11 +1,14 @@
-* {
-    font-family: Arial;
-    color: #222;
-    scroll-behavior: smooth;
-}
+/* Tengo que probar box-sizing: border-box; para no volverme loco
+con los padding en la proxima actividad, probar losresets globales
+de margin y padding, tal vez usar absolute en toda la Galeria hubiera sido mejor
+que mezclar las static con la absolut y margins*/
+
 body {
     background-color: #e9efe9;
     margin: 0;
+    font-family: Arial;
+    color: #222;
+    scroll-behavior: smooth;
 }
 .contenedor {
     width: 960px;
@@ -22,9 +25,6 @@ h1 {
     color: white;
     padding-top: 30px;
 }
-.sello {
-    position: relative;
-}
 .tempo {
     position: absolute;
     margin: 0;
@@ -40,6 +40,7 @@ h1 {
 }
 header {
     padding-bottom: 30px;
+    position: relative;
 }
 header>p {
     color:#c7c7c7;
@@ -58,7 +59,6 @@ li {
     width: 90px;
 }
 ul {
-    padding: 0;
     margin: 0;
     margin-top: 1px;
     padding: 10px;
