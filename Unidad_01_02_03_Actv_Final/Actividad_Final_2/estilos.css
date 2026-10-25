@@ -2,13 +2,14 @@
 con los padding en la proxima actividad, probar losresets globales
 de margin y padding, tal vez usar absolute en toda la Galeria hubiera sido mejor
 que mezclar las static con la absolut y margins*/
-
+* {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #e9efe9;
     margin: 0;
     font-family: Arial;
     color: #222;
-    scroll-behavior: smooth;
 }
 .contenedor {
     width: 960px;
