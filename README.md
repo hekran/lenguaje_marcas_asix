@@ -1,6 +1,6 @@
 # Índice de Ejercicios
 
-- [📁 HTML](./unidad_1/)
+* [📁 HTML](./unidad_1/)
     <details style="margin-bottom:0;"><summary><a href="./unidad_1/ud11/">📁 ud11: HTML Básico</a></summary>
 
     * [📄 Tu primera página HTML ★☆☆☆](./unidad_1/ud11/11_1.html)
@@ -36,7 +36,7 @@
     * [📄 Lista de precios con celdas combinadas ★★★☆](./unidad_1/ud15/15_3/index.html)
     * [📄 Reto: tabla de datos completa ★★★★](./unidad_1/ud15/15_4/index.html)
     </details>
-- [📁 CSS](./unidad_2/)
+* [📁 CSS](./unidad_2/)
     <details><summary><a href="./unidad_2/ud21/">📁 ud21: CSS Básico</a></summary>
 
     * [📄 Tres formas de incluir CSS ★☆☆☆](./unidad_2/ud21/21_1/)
@@ -56,6 +56,6 @@
     * [📁 ud24: CSS Agrupaciones (divs)](./unidad_2/ud24/)
     * [📁 ud25: CSS Posicionamiento](./unidad_2/ud25/)
     * [📁 ud25: CSS Elementos avanzados](./unidad_2/ud26/)
-- [📁 Finales](./Unidad_01_02_03_Actv_Final/)
+* [📁 Finales](./Unidad_01_02_03_Actv_Final/)
     * [📁 ud23: CSS Formulario](./Unidad_01_02_03_Actv_Final/Actividad_Final_1/)
     * [📁 ud24: CSS Agrupaciones (divs)](./Unidad_01_02_03_Actv_Final/Actividad_Final_2/)
