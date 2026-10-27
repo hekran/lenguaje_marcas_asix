@@ -54,6 +54,7 @@ nav {
     text-align: center;
     position: sticky;
     top: 0px;
+    z-index: 2;
 }
 li {
     display: inline-block;

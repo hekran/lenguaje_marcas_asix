@@ -54,8 +54,8 @@
 
     * [📁 ud23: CSS Formulario 🚨](./unidad_2/ud23/)
     * [📁 ud24: CSS Agrupaciones (divs)](./unidad_2/ud24/)
-    * [📁 ud25: CSS Posicionamiento](./unidad_2/ud25/)
-    * [📁 ud25: CSS Elementos avanzados](./unidad_2/ud26/)
+    * [📁 ud25: CSS Posicionamiento](./unidad_3/ud31/)
+    * [📁 ud25: CSS Elementos avanzados](./unidad_3/ud32/)
 * [📁 Finales](./Unidad_01_02_03_Actv_Final/)
     * [📁 Maquetado Básico ★★☆☆](./Unidad_01_02_03_Actv_Final/Actividad_Final_1/)
     * [🚨 Web con posicionamiento ★★★★ 🚨](./Unidad_01_02_03_Actv_Final/Actividad_Final_2/)
