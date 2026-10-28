@@ -69,4 +69,4 @@
 * [📁 Finales](./Unidad_01_02_03_Actv_Final/)
     * [📁 Maquetado Básico ★★☆☆](./Unidad_01_02_03_Actv_Final/Actividad_Final_1/)
     * [🚨 Web con posicionamiento ★★★★ 🚨](./Unidad_01_02_03_Actv_Final/Actividad_Final_2/)
-    * [🚨 Web sticky y FIXED Lateral bolitas before ★★★☆ 🚨](./Unidad_01_02_03_Actv_Final/Actividad_Final_3/)
+    * [🚨 Web sticky y FIXED Lateral bolitas before FESTIVAL ★★★☆ 🚨](./Unidad_01_02_03_Actv_Final/Actividad_Final_3/)
