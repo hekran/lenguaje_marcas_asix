@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(154, 151, 151);
+}
+ul {
+    list-style: none;
+}
+body {
+    background-color: rgb(20, 19, 19);
+    font-family: sans-serif;
+    color: rgb(220, 220, 220);
+}
+main {
+    margin-left: 200px;
+}
+nav {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.logo {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #ff4f81;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+nav ul li {
+    margin: 30px 0px;
+}
