@@ -8,6 +8,9 @@ a {
     text-decoration: none;
     color: rgb(154, 151, 151);
 }
+a:hover {
+    color: #38e1d0;
+}
 ul {
     list-style: none;
 }
@@ -40,6 +43,7 @@ h1, h2 {
 }
 h1 {
     font-size: 2em;
+    margin-bottom: 7px;
 }
 h2 {
     position: sticky;
