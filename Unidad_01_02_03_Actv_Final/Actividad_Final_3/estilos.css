@@ -52,6 +52,7 @@ h2 {
     border-bottom: #38e1d0 solid 3px;
     font-size: 1.3em;
     top: 0px;
+    z-index: 99;
 }
 section {
     background-color: rgb(18,18,31);
