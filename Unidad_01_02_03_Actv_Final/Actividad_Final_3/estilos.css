@@ -81,6 +81,22 @@ strong {
 }
 .horario li {
     padding-bottom: 25px;
+    border-left: solid 2px #ff4f81;
+    padding-left: 15px;
+}
+.horario li::before {
+    content: "";
+    position: absolute;
+    left: 28px;
+    border-radius: 100%;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #38e1d0;
+    margin-top: 4px;
+}
+.horario li:nth-child(7){
+    padding-bottom: 0;
 }
 .horario {
     padding-bottom: 40px;
@@ -110,7 +126,6 @@ strong {
 }
 .faq p {
     margin: 15px 0px;
-    
 }
 #info .bleft{
     padding-bottom: 20px;
@@ -118,4 +133,5 @@ strong {
 footer p {
     display: inline-block;
     padding: 20px;
+    border-left: solid 3px #ff4f81;
 }
