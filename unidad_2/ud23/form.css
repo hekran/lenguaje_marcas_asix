@@ -54,9 +54,6 @@ td {
 label {
     font-weight: bold;
 }
-.fnormal {
-    font-weight: normal;
-}
 input[type="submit"],input[type="reset"] {
     font-weight: bold;
     display: flex;
