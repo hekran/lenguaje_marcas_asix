@@ -15,6 +15,7 @@ ul {
     list-style: none;
 }
 body {
+    position: relative;
     background-color: rgb(20, 19, 19);
     font-family: sans-serif;
     color: rgb(220, 220, 220);
@@ -22,7 +23,8 @@ body {
     margin: 0 auto;
 }
 main {
-    margin-left: 200px;
+    position: relative;
+    left: 200px;
 }
 nav {
     height: 100vh;
