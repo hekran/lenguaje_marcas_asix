@@ -96,13 +96,11 @@ h3 {
     padding-right: 4px;
 }
 .cont_imagen {
-
     width: 270px;
     height: 190px;
     border: solid 1px lightgray;
     border-radius: 10px;
     overflow: hidden;
-    margin-right: 20px;
 }
 .levantar {
     position: relative;
@@ -131,13 +129,11 @@ h3 {
     position: relative;
 }
 .foto {
-    display: inline-block;
     position: relative;
     width: 280px;
     height: 210px;
     border: solid 6px white;
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
-    margin-right: 30px;
     overflow: hidden;
 }
 .foto.verde{
@@ -207,4 +203,5 @@ hr {
 }
 .wrap_cont {
     display: flex;
+    gap: 20px;
 }

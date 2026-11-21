@@ -13,6 +13,12 @@ a:hover {
 }
 ul {
     list-style: none;
+   
+}
+.logo+ul {
+    display:flex ;
+    flex-direction: column;
+    gap: 30px;
 }
 body {
     background-color: rgb(20, 19, 19);
@@ -64,9 +70,7 @@ section {
     padding-left: 30px;
     padding-top: 30px;
 }
-nav ul li {
-    margin: 30px 0px;
-}
+
 #inicio {
     position: relative;
     height: 300px;
