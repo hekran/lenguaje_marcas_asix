@@ -27,17 +27,34 @@ body {
     width: 1000px;
     margin: 0 auto;
 }
+/*===============AQUI DEFINO EL GRID===============*/
+/*↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓*/
 main {
-    position: relative;
-    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+    "menu header"
+    "menu programa"
+    "menu artistas"
+    "menu info"
+    "menu pie";
 }
+#inicio{grid-area: header;}
+#programa{grid-area: programa;}
+#artistas{grid-area: artistas;}
+#info{grid-area: info;}
+#footer{grid-area: pie;}
 nav {
+    grid-area: menu;
+    position: sticky;
+    top: 0px;
     height: 100vh;
-    width: 200px;
-    position: fixed;
     padding-left: 20px;
     padding-top: 20px;
 }
+/*↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑*/
+/*===============AQUI DEFINO EL GRID===============*/
+
 .logo {
     display: inline-block;
     margin-bottom: 20px;
@@ -73,14 +90,14 @@ section {
 
 #inicio {
     position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 30px;
+    padding-bottom: 30px;
     height: 300px;
     background-color: rgb(42,27,77);
 }
-.portada {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-}
+
 strong {
     color: #ff4f81;
     margin-right: 10px;
