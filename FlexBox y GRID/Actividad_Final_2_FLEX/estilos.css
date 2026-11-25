@@ -53,7 +53,7 @@ h2 {
 nav {
     position: sticky;
     top: 0px;
-    z-index: 2;
+    z-index: 99;
 }
 li {
     width: 90px;
@@ -167,6 +167,8 @@ footer p {
     color: white;
 }
 .comentarios {
+    display: grid;
+    grid-template-columns: 1fr;
     height: 170px;
     margin-right: 30px;
     overflow: auto;
@@ -207,6 +209,7 @@ hr {
 }
 .contenedor {
     display: grid;
+    gap: 1px;
     grid-template-columns: 1fr;
     grid-template-areas:
     "cabecera"
