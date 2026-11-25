@@ -145,9 +145,6 @@ nav{
 section{
     grid-area: contenido;
 }
-.redes {
-
-}
 footer{
     grid-area: pie;
 }.copy {
