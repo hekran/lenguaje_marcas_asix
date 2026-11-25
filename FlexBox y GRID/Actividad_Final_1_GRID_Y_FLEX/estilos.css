@@ -38,6 +38,7 @@ h2 {
 }
 ul {
     display: flex;
+    margin: 0px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -57,17 +58,12 @@ a:hover {
     border-bottom: 3px solid red;
 }
 section{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
-    margin-bottom: 15px;
 }
 article {
     position: relative;
-    width: 33%;
-    height: 50%;
 }
 article>img {
     width: 50px;
@@ -128,4 +124,32 @@ body {
     margin: 0 auto;
     max-width: 70%;
     min-width: 1180px;
+}
+.main {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "cabecera"
+    "menu"
+    "contenido"
+    "pie"
+    "copy";
+}
+header{
+    grid-area: cabecera;
+}
+nav{
+    grid-area: menu;
+}
+section{
+    grid-area: contenido;
+}
+.redes {
+
+}
+footer{
+    grid-area: pie;
+}.copy {
+    grid-area: copy;
 }
