@@ -205,3 +205,36 @@ hr {
     display: flex;
     gap: 20px;
 }
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "cabecera"
+    "menu"
+    "inicio"
+    "rutas"
+    "galeria"
+    "opiniones"
+    "pie";
+}
+#arriba {
+    grid-area: cabecera;
+}
+nav {
+    grid-area: menu;
+}
+#inicio {
+    grid-area: inicio;
+}
+#rutas {
+    grid-area: rutas;
+}
+#galeria {
+    grid-area: galeria;
+}
+#opiniones {
+    grid-area: opiniones;
+}
+footer {
+    grid-area: pie;
+}
