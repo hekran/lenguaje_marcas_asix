@@ -125,21 +125,24 @@ strong {
     padding-bottom: 40px;
 }
 .cartel {
+    display: flex;
+    padding-right: 10px;
+    flex-wrap: wrap;
+    gap: 15px;
     padding-bottom: 30px;
 }
 .cartel span {
-    display: inline-block;
     padding: 10px 20px;
     border: solid 2px #ff4f81;
     border-radius: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 .cartel span:hover {
     background-color: #ff4f81;
     color: white;
 }
 .faq {
+    display: grid;
+    grid-template-columns: 1fr;
     height: 170px;
     overflow: auto;
     border: solid 3px #38e1d0;
